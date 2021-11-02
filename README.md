@@ -10,26 +10,37 @@
 
 ## Code Problems
 
-1. Write a function named `greatestOfTwo` that takes in two integer arguments and returns the **largest** of both arguments. You can assume both integers will be different values.
+1. Write a function named `areBothSame`, that takes in two arguments and returns true if both arguments are equal in value, and returns false if not. 
 ```
-greatestOfTwo(1, 14) // returns 14
-greatestOfTwo(-2, 2) // returns 2
-```
-
-2. Write a function named `greatestOfThree` that takes in three integer arguments and returns the **largest** of all arguments. Solve this problem without using any sorting JavaScript methods. You can assume all integers will be different values.
-```
-greatestOfThree(-5, -2, -6) // returns -2
-greatestOfThree(3, 2, 11) // returns 11
+areBothSame(true, 1) // returns true
+areBothSame("2", 2) // returns true
+areBothSame("5", 2) // returns false
 ```
 
-3.  Write a function named `greatestOfFour` that takes in four integer arguments and returns the **largest** of all arguments. Solve this problem without using any sorting JavaScript methods. You can assume all integers will be different values.
+2. Write a function named `areBothEqual`, that takes in two arguments and returns true if both arguments are the same in data type and value, and returns false if they are not.
 ```
-greatestOfFour(-5, -2, -6, 0) // returns 0
-greatestOfFour(10, 2, 6, 11) // returns 11
+areAllFourEqual("2", "2") // returns true
+areAllFourEqual("2", 2) // returns false 
+areAllFourEqual(true, 1) // returns false 
+areAllFourEqual(7, 7) // returns true  
 ```
 
-4. Write a function named `leastOfFour` that takes in four integer arguments and returns the **least** of all arguments. Solve this problem without using any sorting JavaScript methods. You can assume all integers will be different values.
+3. Write a function named `areAllFourEqual`, that takes in four arguments and returns true if all four arguments are the same in data type and value, and returns false if it is not. 
 ```
-leastOfFour(-5, -2, -6, 0) // returns -6
-leastOfFour(10, 2, 6, 11) // returns 2
+areAllFourEqual("2", "2", "2", "2") // returns true
+areAllFourEqual("2", "2", "2", 2) // returns false 
+```
+
+4. Write a function named `areAllFourSame`, that takes in four arguments and returns true if all four arguments are the same in value, and returns false if it is not. 
+``` 
+areAllFourSame("2", "2", "2", "2") // returns true
+areAllFourSame("2", "2", "2", 2) // returns true 
+areAllFourSame(true, true, 1, "1") // returns true
+```
+**BONUS**
+5. Write a function named `areAllFourSameOrEqual`, that takes in four arguments and returns the string "same" if all four arguments are the same in value, but not data type, and returns the string "equal" if all four arguments are equal in value **and** data type. The function will return null if the arguments are not "same" or "equal".
+```
+areAllFourSame("2", "2", "2", "2") // returns "equal"
+areAllFourSame(true, true, 1, "1") // returns "same"
+areAllFourSame(true, false, 1, "1") // returns null
 ```
