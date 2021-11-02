@@ -1,20 +1,27 @@
 //1
-function greatestOfTwo(){
+function areBothSame(){
   
 }
 
 //2
-function greatestOfThree(){
+function areBothEqual(){
   
 }
 
 //3
-function greatestOfFour(){
+function areAllFourEqual(){
   
 }
 
 
 //4
-function leastOfFour(){
+function areAllFourSame(){
   
 }
+
+//5
+function areAllFourSameOrEqual(){
+  
+}
+
+
