@@ -10,7 +10,7 @@
 
 ## Code Problems
 
-1. Write a function named `areBothSame`, that takes in two arguments and returns true if both arguments are equal in value, and returns false if not. 
+1. Write a function named `areBothSame`, that takes in two arguments and returns true if both arguments are truthy in value, and returns false if not. 
 ```
 areBothSame(true, 1) // returns true
 areBothSame("2", 2) // returns true
